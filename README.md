@@ -141,8 +141,6 @@ If you’d like to improve this or port it to Windows/Linux, feel free to open a
 📬 Contact
 
 Fayas Khan
-📧 [fayaskhanmohammad@gmail.com]	
-	🌐 https://www.linkedin.com/in/mohammadfayaskhan/	
-	📦 https://github.com/MohammadFayasKhan
+📧 [fayaskhanmohammad@gmail.com]	🌐 https://www.linkedin.com/in/mohammadfayaskhan/	📦 https://github.com/MohammadFayasKhan
 
 ⸻
