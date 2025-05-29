@@ -87,8 +87,16 @@ lpu_ums_login.py handles:
 
 📸 Screenshot
 
+Code Snippet:
+
 ![CodeSnaps](codesnap1.png)
+
+Code Snippet:
+
 ![CodeSnaps](codesnap2.png)
+
+Result Snippet:
+
 ![ResultSnaps](resultsnap.png)
 
 ⸻
