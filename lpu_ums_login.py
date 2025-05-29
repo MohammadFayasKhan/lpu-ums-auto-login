@@ -12,7 +12,7 @@ Ensure:
 - Credentials are saved in macOS Keychain
 
 Author: @Fayas
-GitHub: https://github.com/yourusername/lpu-ums-auto-login
+GitHub: https://github.com/MohammadFayasKhan/lpu-ums-auto-login
 """
 
 from selenium import webdriver

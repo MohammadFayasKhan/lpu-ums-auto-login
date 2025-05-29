@@ -87,8 +87,9 @@ lpu_ums_login.py handles:
 
 📸 Screenshot
 
-![Login Success](screenshot.png)
-
+![CodeSnaps](codesnap1.png)
+![CodeSnaps](codesnap2.png)
+![ResultSnaps](resultsnap.png)
 
 ⸻
 

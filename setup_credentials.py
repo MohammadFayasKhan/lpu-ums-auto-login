@@ -11,7 +11,7 @@ without hardcoding them into the source code.
 Run this **once only** to store your credentials.
 
 Author: @Fayas
-GitHub: https://github.com/yourusername/lpu-ums-auto-login
+GitHub: https://github.com/MohammadFayasKhan/lpu-ums-auto-login
 """
 
 import keyring
