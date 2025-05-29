@@ -22,9 +22,9 @@ A Python-based automation script that securely logs you into [Lovely Professiona
 ## 📁 Project Structure
 
 lpu-ums-auto-login/  
-├── lpu_ums_login.py           # Main auto-login automation script  
-├── setup_credentials.py       # Stores your credentials securely in Keychain  
-└── README.md                  # This documentation file  
+├── lpu_ums_login.py --> # Main auto-login automation script  
+├── setup_credentials.py --> # Stores your credentials securely in Keychain  
+└── README.md --> # This documentation file  
 
 ---
 
