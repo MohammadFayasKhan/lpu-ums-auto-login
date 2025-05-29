@@ -21,10 +21,10 @@ A Python-based automation script that securely logs you into [Lovely Professiona
 
 ## 📁 Project Structure
 
-lpu-ums-auto-login/
-├── lpu_ums_login.py               # Main auto-login automation script
-├── setup_credentials.py       # Stores your credentials securely in Keychain
-└── README.md                  # This documentation file
+lpu-ums-auto-login/  
+├── lpu_ums_login.py           # Main auto-login automation script  
+├── setup_credentials.py       # Stores your credentials securely in Keychain  
+└── README.md                  # This documentation file  
 
 ---
 
@@ -44,14 +44,17 @@ pip install selenium keyring
 
 ⸻
 
-🔐 Step 1: Setup Credentials
+## 🔐 Step 1: Setup Credentials
 
 Run this script once to securely store your credentials in the macOS Keychain:
 
+```bash
 python3 setup_credentials.py
+```
 
 setup_credentials.py:
 
+```bash
 import keyring
 
 # Store your credentials in macOS Keychain
@@ -59,15 +62,17 @@ keyring.set_password("lpu-ums", "username", "Your-Registration-Number")
 keyring.set_password("lpu-ums", "password", "Your-Ums-Password")
 
 print("✅ Credentials stored securely in macOS Keychain.")
-
+```
 
 ⸻
 
-🚀 Step 2: Run the Automation Bot
+## 🚀 Step 2: Run the Automation Bot
 
 Once your credentials are stored, run the automation:
 
+```bash
 python3 lpu_ums_login.py
+```
 
 lpu_ums_login.py handles:
 	•	Opening Chrome
@@ -77,7 +82,7 @@ lpu_ums_login.py handles:
 
 ⸻
 
-🧠 How It Works
+## 🧠 How It Works
 	•	Uses keyring to read your username/password from the macOS Keychain
 	•	Opens UMS in Chrome using Selenium WebDriver
 	•	Waits for all required fields and elements to be interactable
@@ -85,7 +90,7 @@ lpu_ums_login.py handles:
 
 ⸻
 
-📸 Screenshot
+## 📸 Screenshot
 
 Code Snippet:
 
@@ -101,7 +106,7 @@ Result Snippet:
 
 ⸻
 
-🧪 Tested On
+## 🧪 Tested On
 	•	macOS 15 Sonoma
 	•	Chrome v124+
 	•	ChromeDriver v124+
@@ -110,37 +115,24 @@ Result Snippet:
 
 ⸻
 
-🔐 Security Notice
+## 🔐 Security Notice
 	•	Passwords are not hardcoded
 	•	macOS Keychain is used for secure storage
 	•	Code never prints or exposes credentials
 
 ⸻
 
-🪪 License
-
-This project is open-source under the MIT License. Feel free to use, share, and build on it.
-
-⸻
-
-💼 Showcasing on LinkedIn
-
-🚀 Just built a Python-based auto-login bot for LPU’s UMS!
-🔐 It securely handles credentials using macOS Keychain and automates login via Selenium.
-🧠 All code is open-source and cleanly documented.
-👉 Check it out: github.com/yourusername/lpu-ums-auto-login
-
-⸻
-
-🤝 Contributing
+## 🤝 Contributing
 
 If you’d like to improve this or port it to Windows/Linux, feel free to open a PR or issue!
 
 ⸻
 
-📬 Contact
+## 📬 Contact
 
 Fayas Khan
-📧 [fayaskhanmohammad@gmail.com]	🌐 https://www.linkedin.com/in/mohammadfayaskhan/	📦 https://github.com/MohammadFayasKhan
+📧 [fayaskhanmohammad@gmail.com] <br>
+🌐 https://www.linkedin.com/in/mohammadfayaskhan/ <br>
+📦 https://github.com/MohammadFayasKhan
 
 ⸻
